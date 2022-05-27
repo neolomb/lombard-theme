@@ -1,0 +1,101 @@
+$f: 'Inter', sans-serif;
+$f2: 'Open Sans', sans-serif;
+:root {
+    --w40: 40px;
+    --w30: 30px;
+    --w20: 20px;
+    --w10: 10px;
+    --f40: 40px;
+    --f30: 30px;
+    --f20: 20px;
+    --f15: 15px;
+    --f10: 10px;
+}
+.f300 {
+    font-weight: 300;
+}
+.f11 {
+    font-size: 11px;
+}
+.f12 {
+    font-size: 12px;
+}
+.f13 {
+    font-size: 13px;
+}
+.f14 {
+    font-size: 14px;
+}
+.f15 {
+    font-size: 15px;
+}
+.f16 {
+    font-size: 16px;
+}
+.f17 {
+    font-size: 17px;
+}
+.f18 {
+    font-size: 18px;
+}
+.f26 {
+    font-size: 26px;
+}
+.f22 {
+    font-size: 22px;
+}
+.f36 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.f52 {
+    font-size: 52px;
+}
+.bold {
+    font-weight: 600;
+}
+.gray {
+    color: #9E9E9E;
+    font-size: 16px;
+}
+.gray2 {
+    color: #747474;
+}
+.black {
+    color: #000;
+}
+.m {
+    font-family: $f2;
+}
+.flx {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+.flxw {
+    flex-wrap: wrap;
+}
+.aic {
+    align-items: center;
+}
+.aie {
+    align-items: flex-end;
+}
+.jcc {
+    justify-content: center;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.jcfe {
+    justify-content: flex-end;
+}
+.fxg {
+    flex-grow: 1;
+}
+.fxs {
+    flex-shrink: 0;
+}
